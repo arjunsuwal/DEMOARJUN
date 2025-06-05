@@ -57,4 +57,6 @@ inf_engine.add_rule(Rule('rule2',ideal, do_nothing))
 inf_engine.add_rule(Rule('rule3',hot, on_ac))
 
 #Checking condition for 11
-inf_engine.engine(11)
+inf_engine.engine(9)
+inf_engine.engine(20)
+inf_engine.engine(50)
